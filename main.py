@@ -301,4 +301,4 @@ async def health_check():
 if __name__ == "__main__":
     import uvicorn
     logger.info("Starting Nano Banana Image Generation API server on port 10000")
-    uvicorn.run("test:app", host="0.0.0.0", port=10000, reload=True)
+    uvicorn.run("main:app", host="0.0.0.0", port=10000, reload=True)
